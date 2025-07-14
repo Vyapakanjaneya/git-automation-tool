@@ -1,0 +1,71 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env
+*.env
+env/
+ENV/
+
+# Mac / Linux / Windows (system files)
+.DS_Store
+Thumbs.db
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & caches
+*.log
+logs/
+.cache/
+*.tmp
+*~
+
+# Build files
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Byte-compiled files
+*.bak
+
+# Backup folders
+backup/
+*.zip
+
+# Python dotenv secrets
+.env
+*.secret
+config.json
+
+# PyInstaller
+*.spec
+
+# MyPy cache
+.mypy_cache/
+
+# PyTest
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Local data files
+data/
