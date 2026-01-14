@@ -121,12 +121,18 @@ Below are all commands supported by this tool.
 python cli.py create <repo-name>
 
 #### Issue Commands
-Action	Command
-Create issue	python cli.py issue-create <repo> <title>
-Comment on issue	python cli.py issue-comment <repo> <num> <comment>
-Close issue	python cli.py issue-close <repo> <num>
-Add label	python cli.py issue-label <repo> <num> <label>
-List issues	python cli.py issue-list <repo>
+##### Create issue	
+python cli.py issue-create <repo> <title>
+
+##### Comment on issue	
+python cli.py issue-comment <repo> <num> <comment>
+
+##### Close issue
+python cli.py issue-close <repo> <num>
+##### Add label
+python cli.py issue-label <repo> <num> <label>
+##### List issues	
+python cli.py issue-list <repo>
 #### Backup Commands
 python cli.py backup
 python cli.py backup-zip
@@ -151,17 +157,23 @@ python cli.py backdate <repo> "<message>" "YYYY-MM-DD HH:MM:SS"
 
 Example:
 
-python cli.py backdate myproject "Initial upload" "2025-07-14 10:00:00"
+python cli.py backdate myproject "Initial upload" "2025-1-4 9:00:00"
 
 #### Releases
-Action	Command
-Create release	python cli.py release <repo> <tag> <title> <desc>
-Upload file to release	python cli.py upload-asset <repo> <tag> <file>
- Repository Deletion (Safe Mode)
-Action	Command
-Delete remote repo	python cli.py delete <repo>
-Delete local folder	python cli.py delete-local <repo>
-Delete both	python cli.py delete-full <repo>
+
+##### Create release
+python cli.py release <repo> <tag> <title> <desc>
+##### Upload file to release
+python cli.py upload-asset <repo> <tag> <file>
+
+Repository Deletion
+
+##### Delete remote repo
+python cli.py delete <repo>
+##### Delete local folder
+python cli.py delete-local <repo>
+##### Delete both	
+python cli.py delete-full <repo>
 
 Each command will ask for confirmation before deleting anything.
 
